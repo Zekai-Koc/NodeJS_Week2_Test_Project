@@ -58,7 +58,7 @@ export const addNewMovie = (req, res) => {
 
    movies.push(newMovie);
    res.status(200);
-   res.send(`Movie with the id: ${id} added to the list.`);
+   res.send(`Movie with the title: ${title} added to the list.`);
 };
 
 export const searchMovie = (req, res) => {
@@ -72,7 +72,7 @@ export const searchMovie = (req, res) => {
       }
    }
    res.status(404);
-   res.send(`Movie with id: ${id} not found!`);
+   res.send(`Movie with id: ${title} not found!`);
 };
 
 export const deleteMovie = (req, res) => {

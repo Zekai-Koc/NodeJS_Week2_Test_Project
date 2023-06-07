@@ -8,13 +8,16 @@ package.json:
 Operations/Actions Methods and Paths
 REQUEST     METHOD      ENDPOINT       FUNCTION
 -------     ------      --------       --------
-Read        GET         /users         returns all users.
-Create      POST        /users         creates a user.
-Read        GET         /users/:id     returns the user with the specific id
-Delete      DELETE      /users/:id     deletes the user with the specific id
+Read        GET         /movies         returns all movies.
+Create      POST        /movies         creates a movie.
+Read        GET         /movies/:id     returns the movie with the specific id
+Delete      DELETE      /movies/:id     deletes the movie with the specific id
 
 
 Testing
+Postman
+
+Supertest
 GET /movies (read all movies) 
 POST /movies (add a new movie)
 POST /movies (add a new movie without a field) 
